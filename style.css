@@ -1,0 +1,81 @@
+/* font */
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* top */
+#top {
+  background: url(/assets/FOXHOUND-Logo-Black-and-White.jpg) center/cover
+    no-repeat;
+  display: flex;
+
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  color: white;
+
+  background-attachment: fixed;
+}
+
+#top h1 {
+  margin-left: 50px;
+}
+
+#top p {
+  width: 25%;
+  margin-right: 25px;
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: gray;
+}
+
+#middle {
+  background: url(/assets/metal-gear-rex-solid-snake-wallpaper-50785.jpg)
+    center/cover no-repeat;
+  height: 100%;
+  padding: 50px;
+  background-color: aqua;
+  background-attachment: fixed;
+}
+
+.snakeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.charArticles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid gray;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+}
+.imageContainer {
+  width: 50%;
+  border-radius: 10px 0 0 15px;
+}
+
+.asideInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#fox {
+  background: url(assets/kojima.jpg) center/cover no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
